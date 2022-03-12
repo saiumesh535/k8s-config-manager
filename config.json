@@ -1,0 +1,16 @@
+[
+    {
+        "clusterName": "staging",
+        "namespace": "default",
+        "configFileName": "assist.yaml",
+        "key": "APTY_REGION",
+        "value": "ap-south-1"
+    },
+    {
+        "clusterName": "development",
+        "namespace": "development",
+        "configFileName": "assist.yaml",
+        "key": "APTY_REGION",
+        "value": "us-east-1"
+    }
+]

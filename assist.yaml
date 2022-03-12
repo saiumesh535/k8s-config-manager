@@ -1,0 +1,42 @@
+---
+apiVersion: v1
+data:
+  APTY_REGION: us-east-1
+  ARTIFACTS_URL: "https://apty-assist-development-nyrnfyev-s3.s3.amazonaws.com/development"
+  AWS_APTY_ACCESS_KEY_ID: AKIATYUNLTTFMDQWUWGN
+  AWS_APTY_SECRET_ACCESS_KEY: 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
+  AWS_SQS_URL: "https://sqs.us-east-1.amazonaws.com/259068239050/export-video-development-sqs"
+  BASE_URL: "https://development.apty.io"
+  BRANDING_ENABLED: "false"
+  CONTENT_URL: "https://client.development.apty.io"
+  CORS_URLS: "http://localhost:3000,https://development.apty.io,https://sa.development.apty.io"
+  DATABASE_URL: "postgres://master:AptyNonProd123@apty-non-prod-app-rds-db.cam54clayiwg.us-east-1.rds.amazonaws.com:5432/apty-dev"
+  DEMO_EDITION: "0"
+  ENABLE_DB_SSL: "false"
+  ENCRYPT_KEY: EncryptionKey
+  EXPORT_VIDEO_MESSAGE_GROUP_ID: export-video
+  FEATURE_FLAG_API_KEY: 3o0u07jilchgo3jsrk7kj83jrcmtpihq413v
+  FEATURE_FLAG_CLIENT_KEY: 4lailnj2hgc7jqpsf14a8r6h1t6jjdrq3f1p
+  FIREFOX_API: "user:16297521:216"
+  FIREFOX_SECRET: a94caea5aa4babcb583916e1ec95d2d710b5cb8f685f9d6c1767bc8dc32b2700
+  FLOATING_EDITOR_ENABLED: "1"
+  INJECTED_CODE_PATH: "https://apty-assist-staging-s3.s3.amazonaws.com/staging/client-injected-4.3.2"
+  NODE_ENV: development
+  PORT: "8080"
+  PRINT_DB_SQL: "false"
+  REDIS_URL: "redis://apty-non-prod-ec.nkalmq.ng.0001.use1.cache.amazonaws.com:6379"
+  S3_CLIENT_BUCKET_NAME: apty-development-client-content-nyrnfyev-s3
+  S3_DEV_BUCKET_NAME: apty-assist-development-nyrnfyev-s3
+  S3_OBJECT_NAME: development
+  SEGMENT_IO_API_BASE_PATH: "https://api.segment.io/v1"
+  SEGMENT_IO_KEY: GlcN942TdURCVa1AuYiZJiirvl39k7cT
+  SEGMENT_IO_URL: "https://api.segment.io"
+  STATIC_FILES_PATH: "development/client-injected-{VERSION}"
+  STORAGE_URL: "https://storage.development.apty.io"
+  TENANTS_CACHE_KEY: tenantApps
+  isDev: "false"
+  name: test
+kind: ConfigMap
+metadata:
+  name: assist-env
+  namespace: development
